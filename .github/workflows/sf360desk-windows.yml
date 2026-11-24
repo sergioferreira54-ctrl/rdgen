@@ -47,7 +47,7 @@ jobs:
       version: ${{ inputs.version }}
 
   build-RustDeskTempTopMostWindow:
-    uses: ./.github/workflows/third-party-RustDeskTempTopMostWindow.yml
+    uses: ./.github/workflows/sf360desk-topmost.yml
     with:
       rustdesk-version: ${{ inputs.version }}
       upload-artifact: true
